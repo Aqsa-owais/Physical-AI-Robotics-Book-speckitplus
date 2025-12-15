@@ -1,0 +1,27 @@
+{
+  "id": "module-2-digital-twin/sensor-simulation",
+  "title": "Sensor Simulation: Cameras, LiDAR, IMUs",
+  "description": "Introduction",
+  "source": "@site/docs/module-2-digital-twin/sensor-simulation.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/sensor-simulation",
+  "permalink": "/giaic-hackathon-speckit-plus/docs/module-2-digital-twin/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/sensor-simulation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physics Simulation Fundamentals: Gravity, Collisions, and Constraints",
+    "permalink": "/giaic-hackathon-speckit-plus/docs/module-2-digital-twin/physics-simulation"
+  },
+  "next": {
+    "title": "Digital Twin Environments: Gazebo Usage and Best Practices",
+    "permalink": "/giaic-hackathon-speckit-plus/docs/module-2-digital-twin/environments"
+  }
+}
