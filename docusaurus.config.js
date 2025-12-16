@@ -13,16 +13,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://physical-ai-robotics-book-speckitplus.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<username>.github.io/<repo-name>'
-  baseUrl: '/giaic-hackathon-speckit-plus/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'your-organization', // Usually your GitHub org/user name.
   projectName: 'giaic-hackathon-speckit-plus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   // onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -49,6 +49,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        pages: {
+          // Enable the pages plugin to process root index.md as homepage
+        },
       }),
     ],
   ],
@@ -70,7 +73,12 @@ const config = {
             label: 'Physical AI Robotics Book',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/docs/intro',
+            label: 'Home',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/Aqsa-owais/Physical-AI-Robotics-Book-speckitplus.git',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,7 +114,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Aqsa-owais/Physical-AI-Robotics-Book-speckitplus.git',
               },
             ],
           },

@@ -42,25 +42,25 @@ const sidebars = {
         'module-3-ai-brain/sim-to-real'
       ],
     },
-    // {
-    //   type: 'category',
-    //   label: 'Module 4: Vision-Language-Action (VLA)',
-    //   items: [
-    //     'module-4-vla/index',
-    //     'module-4-vla/vla-paradigm',
-    //     'module-4-vla/voice-action',
-    //     'module-4-vla/llm-planning',
-    //     'module-4-vla/translation'
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   label: 'Capstone: Autonomous Humanoid Architecture',
-    //   items: [
-    //     'capstone/index',
-    //     'capstone/end-to-end'
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Module 4: Vision-Language-Action (VLA)',
+      items: [
+        'module-4-vla/index',
+        'module-4-vla/vla-paradigm',
+        'module-4-vla/voice-action',
+        'module-4-vla/llm-planning',
+        'module-4-vla/translation'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Capstone: Autonomous Humanoid Architecture',
+      items: [
+        'capstone/index',
+        'capstone/end-to-end'
+      ],
+    },
     {
       type: 'category',
       label: 'Infrastructure',
